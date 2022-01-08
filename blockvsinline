@@ -1,0 +1,19 @@
+headings,paragraph, div,ul,li,form,article,aside,main,nav are block level elements.
+span,img,a,textarea are inline elements.
+
+inline element sirf jitne jaruat hai utne hi width lete hain aur alag se ager width ya height doge to width aur height nhi lagte unmain.
+
+inline element main sirf left aur right margin hota hai.
+inline elemenst ko ager jyada width dedoge to wo messup ho jate hain.overflow tak hone lagta hai.
+
+
+block element jaise h1 ko block se inline kerna ho to
+<h1 style="display:inline"></h1>
+
+aise se yeah ab block se inlone ban gya hai.
+
+img tag ek inline tag hai uske sath hm width aur height set ker sakte hain aur ager height di hoto width aone aapp set ho jayegi and visaversa.
+
+//ab inline block element
+ager hmko sab cntrol kerna ho like height width uper neche se margin paddding bhi to aap eg
+a tag ko inline-block de sakte ho.

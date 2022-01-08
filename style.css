@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    /* chaniging font color */
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./moonman.jpg');
+}
+.heading-h1{
+    background-color: rgb(134, 203, 243);
+    padding:4px 4px 4px 4px;
+    border-radius:20px;
+}
+h1{
+    border-radius:20px;
+    /* changing text color */
+    color:orange;
+    padding:4px 4px 4px 4px;
+}
+.p1-para{
+    color:gray;
+    background-color: aliceblue;
+    border-radius:10px;
+    padding:4px 4px 4px 4px;
+    /* if hexcode then values are from 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f  */
+}
+.p-itis{
+    /* padding:top, bottom */
+    border-radius:10px;
+    padding:4px 4px 4px 4px;
+    color:brown;
+    background-color: aliceblue;
+}
+.h2-itis{
+    border-radius:20px;
+}
+.header{
+    /* display:flex; */
+}
+h2{
+    padding:4px 4px 4px 4px;
+    background-color:rgba(255,255,100);
+    padding:4px;
+    /* border-radius:2px; */
+}
+.main-heading{
+    border:2px solid white;
+    display:inline-block;
+    border-radius:20px;
+    padding:4px 4px 4px 4px;
+    background-color:rgb(250, 148, 81);
+}
+
+.list-items{
+    display:flex;
+    justify-content:space-around;
+    text-decoration: none;
+    border-radius:10px;
+    background-color: aliceblue;
+}
+/* direct child combination selector */
+.heading > h1{
+    border:2px solid white;
+    background-color: blueviolet;
+}
+/* attribute-selector */
+input[type= "text" ]{
+    color:red;
+}
+input[type= "pass"]{
+    background-color: antiquewhite;    
+}
+.inner-container{
+    background-color:blanchedalmond;
+}
+.form{
+    background-color:blanchedalmond;
+
+}
+/* *= , ^="something"  ;{ke bad se} ,$= */
