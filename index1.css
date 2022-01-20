@@ -1,0 +1,24 @@
+*{
+    /* this is called css reset */
+    margin:0;
+    padding:0;
+}
+hr{
+    width:500px;
+    margin-left: 0 ;
+}
+.box-1{
+    box-sizing: border-box;
+    width:500px;
+    background-color:lightcoral;
+    border: 5px solid black;
+    padding: 50px;
+
+}
+.box-2 > h3 > p {
+    font-weight:80;
+    font-size: 15px;
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+}

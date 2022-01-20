@@ -1,0 +1,37 @@
+
+a:link{
+    color:aquamarine;
+}
+a:visited{
+    color:rgb(14, 49, 245);
+}
+a:hover {
+    color: rgb(253, 174, 27);
+  }
+a:active{
+    color:rgb(0, 255, 0);
+}
+
+
+/* p:nth-child(2n+1){
+    color:orange;
+} */
+
+/* p:nth-of-type(2){
+    color:orange;
+} */
+/* p::first-letter{
+    font-size:32px;
+} */
+p::selection{
+    background:rgb(104, 103, 103);
+    color:white;
+}
+
+     
+/* cant use before with iframe,video,embed,img tag */
+.cool::before{
+    content:'hello';
+    border:5px solid brown;
+    padding:5px;
+}
